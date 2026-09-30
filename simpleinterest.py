@@ -1,3 +1,6 @@
+from os import name
+
+
 p = float(input("Enter principal amount :"))
 r = float(input("Enter rate of the interest :"))
 t = float(input("Enter time :"))
@@ -6,3 +9,4 @@ print("Principal amount:", p)
 print("Rate of the interest:", r)
 print("Time :", t)
 print("Simple Interest : " , si)
+print("name: bhavana",name)
